@@ -67,9 +67,9 @@ namespace ColorPicker
 				{
 					isMouseHookOn = false;
 					actMouseHook.Stop();
-					SliderRed.ValueChanged -= SliderRed_ValueChanged;
-					SliderGreen.ValueChanged -= SliderGreen_ValueChanged;
-					SliderBlue.ValueChanged -= SliderBlue_ValueChanged;
+					SliderRed.ValueChanged += SliderRed_ValueChanged;
+					SliderGreen.ValueChanged += SliderGreen_ValueChanged;
+					SliderBlue.ValueChanged += SliderBlue_ValueChanged;
 				}
 			}
 		}

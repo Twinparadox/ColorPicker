@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="ColorPicker.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ColorPicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ColorPicker" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="ColorPicker.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ColorPicker.exe" size="18944">
-      <assemblyIdentity name="ColorPicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="ColorPicker" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OPwMuK4eFOu9Tk2RH2HevfWt3WU=</dsig:DigestValue>
+        <dsig:DigestValue>9jLbF5psfjTCXw4g566ozkt/xUc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
